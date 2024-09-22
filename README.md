@@ -13,8 +13,9 @@ ML Model is also provided in the releases.
 Unzip the folder and include the path in the main file
 You can slo train the model separately if needed.
 To download the ML model and tokenizer, click the link below:
+Also please incude files in a folder named Model_And_Tokenizer
 
-- [Download ML Model and Tokenizer](https://drive.google.com/drive/folders/1Q_f8wk1XlcvAIrJz51wUJuwwAnYbCezS?usp=drive_link)
+- [Download ML Model and Tokenizer](https://drive.google.com/drive/folders/1W2OcroGaiYZuzaiHpxKEZk4ZPZrQc6tP)
 
 ## Installation Instructions
 
