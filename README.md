@@ -7,7 +7,6 @@ This repository all files for stock prediction and sentiment analysis task. Foll
 
 ## Video
 
-You can watch the video as mentioned in the assignment [here](https://drive.google.com/file/d/1veJxtrh5dAsrH42pmkjCb8VxYPoFO4Xr/view?usp=drive_link).
 
 Youtube link - [Link](https://youtu.be/gvZGd1t2S74)
 
