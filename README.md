@@ -32,9 +32,11 @@ To download the ML model and tokenizer, click the link below:
 3. **Release Information**:
    Link to download the model [here](https://github.com/AreenDeshpande/Stock_Movement_Predictor/releases).  
    Please include the path from where the model is downloaded in the `main.py` file and replace `'path/to/model'` with the actual path.
+   Please also replace the paths of datasets with actual path
 
-4. **Running the Program**:
-5. Open main.py
+5. **Running the Program**:
+   Please replace the  path of datasets with actual path
+   Open main.py
    Run the command:
    ```bash
    python -m streamlit run main.py
