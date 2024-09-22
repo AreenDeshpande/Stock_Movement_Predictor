@@ -9,7 +9,7 @@ tokenizer = BertTokenizer.from_pretrained(r'path/to/model')
 
 # Load your scraped dataset (make sure to provide the correct path)
 #If cloning this repository please provide the correct path
-scraped_data = pd.read_csv('datasets->scraped_data.csv') 
+scraped_data = pd.read_csv('scraped_data.csv') 
 
 # Function to predict sentiment
 def predict_outcome(text):
