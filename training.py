@@ -84,8 +84,8 @@ for epoch in range(epochs):
     print(f'Epoch {epoch + 1} complete')
 
 # Save the trained model
-model.save_pretrained(r'C:\Users\Asus\Desktop\Capx\Model_And_Tokenizer')
-tokenizer.save_pretrained(r'C:\Users\Asus\Desktop\Capx\Model_And_Tokenizer')
+model.save_pretrained(r'path/to/model')
+tokenizer.save_pretrained(r'path/to/model')
 
 # Streamlit interface
 st.title("Stock Sentiment Prediction")
