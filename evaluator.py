@@ -4,11 +4,11 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # Load the model and tokenizer
-model = BertForSequenceClassification.from_pretrained(r'C:\Users\Asus\Desktop\Capx\Model_And_Tokenizer')
-tokenizer = BertTokenizer.from_pretrained(r'C:\Users\Asus\Desktop\Capx\Model_And_Tokenizer')
+model = BertForSequenceClassification.from_pretrained(r'path/to/model')
+tokenizer = BertTokenizer.from_pretrained(r'path/to/model')
 
 # Load your test dataset
-test_data = pd.read_csv(r'C:\Users\Asus\Desktop\Capx\datasets\test.csv')
+test_data = pd.read_csv(r'./datasets/test.csv')
 
 # Function to predict sentiment
 def predict_sentiment(text):
