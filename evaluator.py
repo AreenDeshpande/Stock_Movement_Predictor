@@ -8,7 +8,8 @@ model = BertForSequenceClassification.from_pretrained(r'path/to/model')
 tokenizer = BertTokenizer.from_pretrained(r'path/to/model')
 
 # Load your test dataset
-test_data = pd.read_csv(r'./datasets/test.csv')
+##If cloning then place replace the path of datasets
+test_data = pd.read_csv('test.csv')
 
 # Function to predict sentiment
 def predict_sentiment(text):
