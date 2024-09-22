@@ -1,7 +1,9 @@
 
 # ML Model and Tokenizer
 
-This repository contains the ML model and tokenizer files. Follow the instructions below to download the model, view the tutorial, and run the program.
+This repository all files for stock prediction and sentiment analysis task. Follow the instructions below to download the model, and run the program.
+
+## Please replace path of datasets with actual paths
 
 ## Video
 
